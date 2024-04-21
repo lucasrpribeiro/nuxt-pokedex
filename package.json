@@ -1,5 +1,6 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxt-pokedex",
+  "description": "This repository is an advanced Pokedex that lists Pokemon and provides information about each one, a project to test states and composables among other features of Nuxt 3.",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,6 +9,13 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukinhas711/nuxt-pokedex"
+  },
+  "bugs": {
+    "url": "https://github.com/lukinhas711/nuxt-pokedex/issues"
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.11.4",
